@@ -1,0 +1,11 @@
+/* Add custom CSS styles here */
+
+/* Change font size for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+  }
+  
+  /* Change font size for body text */
+  body {
+    font-size: 10px;
+  }
