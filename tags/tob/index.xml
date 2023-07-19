@@ -6,15 +6,24 @@
     <description>Recent content in toB on Link&#39;Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CNs</language>
-    <lastBuildDate>Fri, 01 Oct 2021 19:23:23 +0800</lastBuildDate><atom:link href="http://link0099.github.io/tags/tob/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Nov 2022 23:30:00 +0800</lastBuildDate><atom:link href="http://link0099.github.io/tags/tob/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>tob常见问题：做标准、定制？</title>
-      <link>http://link0099.github.io/post/%E6%A0%87%E5%87%86%E5%AE%9A%E5%88%B6%E4%B9%8B%E8%BE%A9/</link>
-      <pubDate>Fri, 01 Oct 2021 19:23:23 +0800</pubDate>
+      <title>2B常见问题：做标准、定制？</title>
+      <link>http://link0099.github.io/post/%E6%97%A5%E5%B8%B8/2b%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%81%9A%E6%A0%87%E5%87%86%E5%AE%9A%E5%88%B6/</link>
+      <pubDate>Wed, 23 Nov 2022 23:30:00 +0800</pubDate>
       
-      <guid>http://link0099.github.io/post/%E6%A0%87%E5%87%86%E5%AE%9A%E5%88%B6%E4%B9%8B%E8%BE%A9/</guid>
-      <description>项目既然接了，一般是经过业务侧筛选过后的项目，此问题一般发生在2B业务早期阶段，是一个常见的问题，做通用还是做定制，这个问题不是一个线性的判断，我们从以下3个点去校验，最终与业务方、项目干系人达成一致
-校验1：公司战略 公司有没有对沉淀标品这件事达成共识，还是确定就是要收人力的费用？ 这里面涉及到公司对市场的预判，公司里不同角色对这件是是存在理解gap的，如果产品经理认为有机会，则有一定的争取空间 校验2：需求价值、产品的规划 复用性判断：是否能有复用的可能，有一个基本的判断 早期经验不足，容易判断不准，说明缺乏行业know how，可以先考虑做定制，做多了就有理解了 对标品结构有没有影响？ 影响大：做标品的可能性会更小 影响小：做标品的可能性会更大 做标准、做定制，时间成本大概差距有多大？ 校验3:落地可行性 项目deadline：客户交付时间是否来得及，是否存在弹性？ 内部是否有足够的资源支撑，是否存在找外包的可能，是否值得找外包？ </description>
+      <guid>http://link0099.github.io/post/%E6%97%A5%E5%B8%B8/2b%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%81%9A%E6%A0%87%E5%87%86%E5%AE%9A%E5%88%B6/</guid>
+      <description>做标准还是做定制，几乎tob领域最遇到的一个最常见的问题，这里总结一下要考虑的因素。
+既然要做了，一般是经过业务侧筛选过后的项目、事情，我们从以下3个方面去考虑，最终与业务方、项目干系人达成一致。
+校验1：公司战略 公司有没有对沉淀标品这件事达成共识，还是确定就是要收人力的费用？
+这里面涉及到公司对市场的预判，公司里不同角色对这件是是存在理解gap的，如果产品经理认为有机会，则有一定的争取空间
+校验2：需求价值、产品的规划 复用性判断：有没有复用的可能，产品经理能有一个基本的判断
+早期经验不足，容易判断不准，说明缺乏行业know how，可以先考虑做定制，做多了就有理解了 经验丰富或通过调研得知，则可以增加判断的确定性，可以直接核算，做成标准，在多少次之后，ROI可以为正 对标品结构的影响风险？
+影响大：做标品的风险更大，需要反复去校验方案是否最优以及后续的可能性 影响小：做标品的更显更小 一般要问问自己，是否了解和相信，在时候可以慎重，不整活不犯错也是一种好的选择；真正想推的话，这里对标品影响小（即分支开在上层）的功更好。
+不管怎样一旦选择了，要做好负责的准备。
+校验3：落地可行性 做标准、做定制，时间成本大概差距有多大？
+一般情况下，做标品要考虑更多的兼容性、扩展性问题，设计出来的方案比定制高很多，此时具体需要和研发侧进行评估权衡 项目deadline：客户交付时间是否来得及，是否存在弹性？
+内部是否有足够的资源支撑，是否存在找外包的可能，是否值得找外包？ </description>
     </item>
     
   </channel>

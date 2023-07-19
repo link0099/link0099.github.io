@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>产品之路 on Link&#39;Log</title>
+    <link>http://link0099.github.io/categories/%E4%BA%A7%E5%93%81%E4%B9%8B%E8%B7%AF/</link>
+    <description>Recent content in 产品之路 on Link&#39;Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CNs</language>
+    <lastBuildDate>Fri, 23 Jun 2023 16:34:00 +0800</lastBuildDate><atom:link href="http://link0099.github.io/categories/%E4%BA%A7%E5%93%81%E4%B9%8B%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>创新产品的产品规划</title>
+      <link>http://link0099.github.io/post/%E6%97%A5%E5%B8%B8/%E5%88%9B%E6%96%B0%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%A7%E5%93%81%E8%A7%84%E5%88%92/</link>
+      <pubDate>Fri, 23 Jun 2023 16:34:00 +0800</pubDate>
+      
+      <guid>http://link0099.github.io/post/%E6%97%A5%E5%B8%B8/%E5%88%9B%E6%96%B0%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%A7%E5%93%81%E8%A7%84%E5%88%92/</guid>
+      <description>什么是真实的产品规划？ 市面上的文章讲产品规划，在于把很多信息弄清楚，如果确定性这么强，那其实不太需要规划，只需要一个明确的目标，不断的拆解就可以。
+实际情况是，市场变化迅速、不确定性极强，产品经理往往处于一种无知状态，对业务一知半解。
+真实的产品规划，就是在不确定性环境下ROI最大的概率游戏。
+产品规划怎么做？ 首先，我们就不讲什么对齐战略、调研市场客户、资源储备这类废话了。
+我把规划分为如下几点：分清楚红利是什么，路径怎么找，存在哪些分支，不同分支的节点在哪，推导的风险。
+具体做起来又涉及：结构性功能，补充性功能、横向功能于垂直功能。
+我曾经做过一个产品，这个产品是copy to china类的saas产品，国外发展很快，想在国内复刻。
+首先这是一个创新的模式，在业务层面，首先要做的是国内「核心价值」验证
+首先我们要分析ta的特性，ta是基于</description>
+    </item>
+    
+    <item>
+      <title>2B常见问题：做标准、定制？</title>
+      <link>http://link0099.github.io/post/%E6%97%A5%E5%B8%B8/2b%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%81%9A%E6%A0%87%E5%87%86%E5%AE%9A%E5%88%B6/</link>
+      <pubDate>Wed, 23 Nov 2022 23:30:00 +0800</pubDate>
+      
+      <guid>http://link0099.github.io/post/%E6%97%A5%E5%B8%B8/2b%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%81%9A%E6%A0%87%E5%87%86%E5%AE%9A%E5%88%B6/</guid>
+      <description>做标准还是做定制，几乎tob领域最遇到的一个最常见的问题，这里总结一下要考虑的因素。
+既然要做了，一般是经过业务侧筛选过后的项目、事情，我们从以下3个方面去考虑，最终与业务方、项目干系人达成一致。
+校验1：公司战略 公司有没有对沉淀标品这件事达成共识，还是确定就是要收人力的费用？
+这里面涉及到公司对市场的预判，公司里不同角色对这件是是存在理解gap的，如果产品经理认为有机会，则有一定的争取空间
+校验2：需求价值、产品的规划 复用性判断：有没有复用的可能，产品经理能有一个基本的判断
+早期经验不足，容易判断不准，说明缺乏行业know how，可以先考虑做定制，做多了就有理解了 经验丰富或通过调研得知，则可以增加判断的确定性，可以直接核算，做成标准，在多少次之后，ROI可以为正 对标品结构的影响风险？
+影响大：做标品的风险更大，需要反复去校验方案是否最优以及后续的可能性 影响小：做标品的更显更小 一般要问问自己，是否了解和相信，在时候可以慎重，不整活不犯错也是一种好的选择；真正想推的话，这里对标品影响小（即分支开在上层）的功更好。
+不管怎样一旦选择了，要做好负责的准备。
+校验3：落地可行性 做标准、做定制，时间成本大概差距有多大？
+一般情况下，做标品要考虑更多的兼容性、扩展性问题，设计出来的方案比定制高很多，此时具体需要和研发侧进行评估权衡 项目deadline：客户交付时间是否来得及，是否存在弹性？
+内部是否有足够的资源支撑，是否存在找外包的可能，是否值得找外包？ </description>
+    </item>
+    
+  </channel>
+</rss>
