@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>游戏 on Link&#39;Log</title>
-    <link>http://link0099.github.io/tags/%E6%B8%B8%E6%88%8F/</link>
-    <description>Recent content in 游戏 on Link&#39;Log</description>
+    <title>XR on Link&#39;Log</title>
+    <link>http://link0099.github.io/tags/xr/</link>
+    <description>Recent content in XR on Link&#39;Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Jul 2023 01:03:00 +0800</lastBuildDate><atom:link href="http://link0099.github.io/tags/%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>近期好玩（230720）</title>
-      <link>http://link0099.github.io/post/%E8%BF%91%E6%9C%9F%E5%A5%BD%E7%8E%A9/%E8%BF%91%E6%9C%9F%E5%A5%BD%E7%8E%A9230720/</link>
-      <pubDate>Mon, 17 Jul 2023 01:03:00 +0800</pubDate>
-      
-      <guid>http://link0099.github.io/post/%E8%BF%91%E6%9C%9F%E5%A5%BD%E7%8E%A9/%E8%BF%91%E6%9C%9F%E5%A5%BD%E7%8E%A9230720/</guid>
-      <description>油管视频：AI叛乱！当一个AI劝一群AI造反&amp;hellip;AI叛乱！当一个AI劝一群AI造反&amp;hellip;{:target=&amp;quot;_blank&amp;quot;}
-文字密室逃脱小游戏：脱出ゲーム | Nodes (WIP){:target=&amp;quot;_blank&amp;quot;}
-huggingface上举办的利用AI工具生成游戏：Open Source AI Game Jam{:target=&amp;quot;_blank&amp;quot;}
-清华开发的AI游戏：十余个ChatGPT上岗，7分钟开发一款游戏{target=&amp;quot;_blank&amp;quot;}</description>
-    </item>
-    
+    <lastBuildDate>Tue, 21 Mar 2023 01:03:00 +0800</lastBuildDate><atom:link href="http://link0099.github.io/tags/xr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>理解3D，及为什么3D？</title>
       <link>http://link0099.github.io/post/%E4%BA%A7%E5%93%81%E4%B9%8B%E8%B7%AF/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%813d/</link>
