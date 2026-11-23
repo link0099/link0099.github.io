@@ -121,9 +121,9 @@ if (!doNotTrack) {
   }
 }
 </script>
-<link rel="stylesheet" href="../assets/portfolio/style.css"></head>
+</head>
 
-<body class="legacy list" id="top">
+<body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -135,8 +135,40 @@ if (!doNotTrack) {
 
 </script>
 
-<header class="sitebar"><div class="shell"><a class="brand" href="../index.html">Link'Log</a><button class="theme" id="theme-toggle" type="button" title="切换明暗主题" aria-label="切换明暗主题">◐</button><nav aria-label="主导航"><a href="../index.html">关于我</a><a href="../blog/index.html" aria-current="page">博客<small>（已停止维护）</small></a></nav></div></header>
-<main class="main"><nav class="blog-menu" aria-label="博客导航"><a href="../blog/index.html">主页</a><a href="../archives/index.html">时间线</a><a href="../tags/index.html">标签</a><a href="../post/index.html">合集</a><a href="index.html" aria-current="page">搜索</a></nav>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="../index.html" accesskey="h" title="Link&#39;Log (Alt + H)">Link&#39;Log</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+<li><a href="../index.html"><span>关于我</span></a></li>
+<li><a href="../blog/index.html" aria-current="page"><span class="active">博客（已停止维护）</span></a></li>
+</ul>
+    </nav>
+</header>
+<main class="main"><nav aria-label="博客导航"><ul class="terms-tags"><li><a href="../blog/index.html">主页</a></li><li><a href="../archives/index.html">时间线</a></li><li><a href="../tags/index.html">标签</a></li><li><a href="../post/index.html">合集</a></li><li><a href="index.html" aria-current="page"><strong>搜索</strong></a></li></ul></nav>
 
 <header class="page-header">
     <h1>搜索 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
