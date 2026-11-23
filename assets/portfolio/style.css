@@ -29,47 +29,95 @@
 @media (max-width: 440px) {
   .project-grid { grid-template-columns: minmax(0, 1fr); }
 }
-.project-grid .visual { aspect-ratio:1.65;border-radius:12px;overflow:hidden;position:relative;isolation:isolate }
-.project-grid .stage { margin:0;width:100%;height:100%;position:relative;overflow:hidden;display:grid;place-items:center }
-.project-grid .stage[hidden] { display:none }
-.project-grid .stage img { display:block }
-.project-grid .shot { background:linear-gradient(132deg,#e1eafb,#a9bcdf);color:#172d58 }
-.project-grid .shot img { width:88%;border-radius:4px;box-shadow:0 8px 22px #27385e36;transform:translateY(9%) }
-.project-grid .land img { width:100%;height:100%;object-fit:cover }
-.project-grid .tide { background:repeating-linear-gradient(0deg,transparent 0 21px,#bbd1be22 22px 23px),linear-gradient(115deg,#c4d2c1,#edf0de);display:flex;justify-content:center;gap:5%;color:#244738 }
-.project-grid .tide img { width:27%;height:auto }
-.project-grid .tide strong { font:600 clamp(24px,3.3vw,46px) Georgia,serif;letter-spacing:-.06em }
-.project-grid .picker { position:absolute;bottom:8px;right:10px;display:flex;align-items:center;background:#102019b8;border-radius:15px;padding:0 3px }
-.project-grid .picker button { width:26px;height:25px;display:grid;place-items:center;cursor:pointer;border:0;background:transparent }
-.project-grid .picker button:after { content:"";display:block;border-radius:5px;width:6px;height:6px;background:#fff9 }
-.project-grid .picker button[aria-pressed=true]:after { width:14px;background:white }
-.project-grid .diagram { color:#254a5e;background-color:#dfedf1;background-image:linear-gradient(#7091a419 1px,transparent 1px),linear-gradient(90deg,#7091a419 1px,transparent 1px);background-size:22px 22px }
-.project-grid .diagram.member { color:#593e53;background-color:#ecdee7;background-image:radial-gradient(#9e7f933a 1px,transparent 1px);background-size:12px 12px }
-.project-grid .diagram.space { color:#37476c;background-color:#e0e5f2 }
-.project-grid .layers { display:grid;gap:6px;transform:rotate(-7deg);width:62% }
-.project-grid .layers span, .project-grid .mapview b, .project-grid .coupon b, .project-grid .flow span { background:#ffffffde;border:1px solid currentColor;border-radius:5px;text-align:center;font-size:clamp(12px,1.25vw,16px);padding:6px 8px;font-weight:550 }
-.project-grid .layers span:nth-child(2) { margin-left:10%;margin-right:-4% }
-.project-grid .layers span:nth-child(3) { margin-left:21%;margin-right:-8% }
-.project-grid .mapview { width:66%;height:59%;border:2px solid currentColor;transform:rotate(-6deg);position:relative;background:repeating-linear-gradient(90deg,transparent 0 25%,#416d792e 25% 26%,transparent 26% 40%),repeating-linear-gradient(0deg,#f6fbfc 0 30%,#b0c9ce 31% 33%,#f6fbfc 34% 48%);border-radius:7px }
-.project-grid .mapview:before, .project-grid .mapview:after { content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:#326b70;box-shadow:0 0 0 5px #458b9260 }
-.project-grid .mapview:before { left:17%;top:25% }
-.project-grid .mapview:after { right:13%;bottom:17% }
-.project-grid .mapview b { position:absolute;bottom:-7px;left:10%;font-size:13px }
-.project-grid .coupon { background:#fff7fb;border:1px solid currentColor;border-radius:8px;padding:18px 24px;transform:rotate(-6deg);box-shadow:5px 6px #bb9cac,10px 12px #d8bacb;display:flex;align-items:center;gap:16px }
-.project-grid .coupon i { border-left:1px dashed currentColor;height:40px }
-.project-grid .coupon b { border:0;padding:0;background:none }
-.project-grid .flow { width:78%;display:flex;flex-wrap:wrap;gap:7px;justify-content:center }
-.project-grid .flow strong { width:100%;text-align:center;font-size:22px;margin-bottom:10px }
-.project-grid .flow span { font-size:13px;padding:6px 10px }
+:is(.project-grid, .project-gallery) .visual { aspect-ratio:1.65;border-radius:12px;overflow:hidden;position:relative;isolation:isolate }
+:is(.project-grid, .project-gallery) .stage { margin:0;width:100%;height:100%;position:relative;overflow:hidden;display:grid;place-items:center }
+:is(.project-grid, .project-gallery) .stage[hidden] { display:none }
+:is(.project-grid, .project-gallery) .stage img { display:block }
+:is(.project-grid, .project-gallery) .shot { background:linear-gradient(132deg,#e1eafb,#a9bcdf);color:#172d58 }
+:is(.project-grid, .project-gallery) .shot img { width:88%;border-radius:4px;box-shadow:0 8px 22px #27385e36;transform:translateY(9%) }
+:is(.project-grid, .project-gallery) .land img { width:100%;height:100%;object-fit:cover }
+:is(.project-grid, .project-gallery) .tide { background:repeating-linear-gradient(0deg,transparent 0 21px,#bbd1be22 22px 23px),linear-gradient(115deg,#c4d2c1,#edf0de);display:flex;justify-content:center;gap:5%;color:#244738 }
+:is(.project-grid, .project-gallery) .tide img { width:27%;height:auto }
+:is(.project-grid, .project-gallery) .tide strong { font:600 clamp(24px,3.3vw,46px) Georgia,serif;letter-spacing:-.06em }
+:is(.project-grid, .project-gallery) .diagram { color:#254a5e;background-color:#dfedf1;background-image:linear-gradient(#7091a419 1px,transparent 1px),linear-gradient(90deg,#7091a419 1px,transparent 1px);background-size:22px 22px }
+:is(.project-grid, .project-gallery) .diagram.member { color:#593e53;background-color:#ecdee7;background-image:radial-gradient(#9e7f933a 1px,transparent 1px);background-size:12px 12px }
+:is(.project-grid, .project-gallery) .diagram.space { color:#37476c;background-color:#e0e5f2 }
+:is(.project-grid, .project-gallery) .layers { display:grid;gap:6px;transform:rotate(-7deg);width:62% }
+:is(.project-grid, .project-gallery) .layers span, :is(.project-grid, .project-gallery) .mapview b, :is(.project-grid, .project-gallery) .coupon b, :is(.project-grid, .project-gallery) .flow span { background:#ffffffde;border:1px solid currentColor;border-radius:5px;text-align:center;font-size:clamp(12px,1.25vw,16px);padding:6px 8px;font-weight:550 }
+:is(.project-grid, .project-gallery) .layers span:nth-child(2) { margin-left:10%;margin-right:-4% }
+:is(.project-grid, .project-gallery) .layers span:nth-child(3) { margin-left:21%;margin-right:-8% }
+:is(.project-grid, .project-gallery) .mapview { width:66%;height:59%;border:2px solid currentColor;transform:rotate(-6deg);position:relative;background:repeating-linear-gradient(90deg,transparent 0 25%,#416d792e 25% 26%,transparent 26% 40%),repeating-linear-gradient(0deg,#f6fbfc 0 30%,#b0c9ce 31% 33%,#f6fbfc 34% 48%);border-radius:7px }
+:is(.project-grid, .project-gallery) .mapview:before, :is(.project-grid, .project-gallery) .mapview:after { content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:#326b70;box-shadow:0 0 0 5px #458b9260 }
+:is(.project-grid, .project-gallery) .mapview:before { left:17%;top:25% }
+:is(.project-grid, .project-gallery) .mapview:after { right:13%;bottom:17% }
+:is(.project-grid, .project-gallery) .mapview b { position:absolute;bottom:-7px;left:10%;font-size:13px }
+:is(.project-grid, .project-gallery) .coupon { background:#fff7fb;border:1px solid currentColor;border-radius:8px;padding:18px 24px;transform:rotate(-6deg);box-shadow:5px 6px #bb9cac,10px 12px #d8bacb;display:flex;align-items:center;gap:16px }
+:is(.project-grid, .project-gallery) .coupon i { border-left:1px dashed currentColor;height:40px }
+:is(.project-grid, .project-gallery) .coupon b { border:0;padding:0;background:none }
+:is(.project-grid, .project-gallery) .flow { width:78%;display:flex;flex-wrap:wrap;gap:7px;justify-content:center }
+:is(.project-grid, .project-gallery) .flow strong { width:100%;text-align:center;font-size:22px;margin-bottom:10px }
+:is(.project-grid, .project-gallery) .flow span { font-size:13px;padding:6px 10px }
 
-.project-grid .visual {
+:is(.project-grid, .project-gallery) .visual {
   border-radius: var(--radius);
   container-type: inline-size;
 }
-.project-grid .layers span { padding-block: 2px; font-size: 12px; }
-.project-grid .flow { width: 96%; gap: 3px; }
-.project-grid .flow strong { font-size: 15px; margin-bottom: 2px; }
-.project-grid .flow span { font-size: 12px; padding: 2px 4px; }
-.project-grid .coupon { padding: 6px 8px; gap: 6px; }
-.project-grid .coupon b { white-space: nowrap; }
-.project-grid .picker button:focus-visible { outline: 2px solid white; }
+:is(.project-grid, .project-gallery) .layers span { padding-block: 2px; font-size: 12px; }
+:is(.project-grid, .project-gallery) .flow { width: 96%; gap: 3px; }
+:is(.project-grid, .project-gallery) .flow strong { font-size: 15px; margin-bottom: 2px; }
+:is(.project-grid, .project-gallery) .flow span { font-size: 12px; padding: 2px 4px; }
+:is(.project-grid, .project-gallery) .coupon { padding: 6px 8px; gap: 6px; }
+:is(.project-grid, .project-gallery) .coupon b { white-space: nowrap; }
+
+.project-grid a.project {
+  display: block;
+  color: inherit;
+}
+.project-grid a.project:focus-visible,
+.gallery-controls button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+.project-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--gap);
+}
+.project-gallery .visual { aspect-ratio: 1.5; }
+.project-gallery .shot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: none;
+  box-shadow: none;
+}
+.project-gallery .land img { object-fit: contain; }
+.project-gallery .land { background: var(--entry); }
+.gallery-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+}
+.gallery-controls button {
+  flex: 0 0 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  color: var(--primary);
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+.gallery-caption { font-size: 14px; color: var(--secondary); text-align: center; }
+.project-copy { font-size: 14px; line-height: 1.65; }
+.project-copy h2 { font-size: 18px; margin-bottom: 8px; }
+.project-copy p { margin-bottom: var(--content-gap); }
+.project-copy ul { padding-inline-start: 1.35em; list-style: disc; }
+.project-copy li + li { margin-top: 8px; }
+@media (max-width: 650px) {
+  .project-detail { grid-template-columns: 1fr; }
+}
